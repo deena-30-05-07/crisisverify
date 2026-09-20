@@ -7,7 +7,7 @@ import { Claim, Vote, User, TrendingClaim, CrisisType, CredibilityBadge, AIAnaly
 
 dotenv.config();
 
-const PORT = 3000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 const app = express();
 app.use(express.json({ limit: "10mb" }));
 
