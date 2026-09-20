@@ -1,0 +1,6 @@
+{
+  "name": "CrisisVerify",
+  "description": "Real-time emergency misinformation detector and fact-checking hub powered by AI credibility analysis and community verification.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
